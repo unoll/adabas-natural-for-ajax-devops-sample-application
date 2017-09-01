@@ -56,7 +56,7 @@ ELSE
 INPUT (AD=O) p-person-id (AL=50)    /*   FOR TESTING ONLY .UM. 
 if p-person-id = '999'
 then
- move 'hahahaha' to P-CUSTOMER-DATA.SURNAME
+ move 'hihihihi' to P-CUSTOMER-DATA.SURNAME
 else
 
 
