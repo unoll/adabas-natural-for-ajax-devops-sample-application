@@ -11,6 +11,7 @@
 /** :author sagadmin
 /* TODO Enter your code here
 /* it can now be committed, I´ve tested it carefully
+/* and this is for testing the commit and push
 DEFINE DATA 
 PARAMETER USING NCCOMM-P
 PARAMETER USING NCCUGE-P 
