@@ -1,4 +1,4 @@
-addWebconfigFolder=true
+addWebconfigFolder=false
 eclipse.preferences.version=1
 previewMode=HTML
 refreshMode=false
