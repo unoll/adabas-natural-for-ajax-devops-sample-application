@@ -10,6 +10,7 @@
 /**
 /** :author sagadmin
 /* TODO Enter your code here
+/* it can now be committed, I´ve tested it carefully
 DEFINE DATA 
 PARAMETER USING NCCOMM-P
 PARAMETER USING NCCUGE-P 
@@ -45,7 +46,7 @@ MOVE P-LANG TO MSG-GROUP-PARA.MSG-LANG
 * ------------------------------------------------------------------
 *
 *
-*  Exercise 2 - see instructions in exercise guide
+*  Exercise 2 - see instructions in exercise guidee
 
 IF #STUDENT THEN
 
