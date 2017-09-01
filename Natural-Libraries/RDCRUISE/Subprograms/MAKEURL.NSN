@@ -6,10 +6,6 @@
 /**
 /** :author Training
 /* TODO Enter your code here
-* >Natural Source Header 000000
-* :Mode S
-* :CP
-* <Natural Source Header
 
 DEFINE DATA PARAMETER
 1 XCIOBJECTS (1:*)
