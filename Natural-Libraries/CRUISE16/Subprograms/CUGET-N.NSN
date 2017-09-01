@@ -52,6 +52,12 @@ IF #STUDENT THEN
   MOVE 9999 TO MSG-GROUP-PARA.MSG-NR
 
 ELSE
+INPUT (AD=O) p-person-id (AL=50)    /*   FOR TESTING ONLY .UM. 
+if p-person-id = '999'
+then
+ move 'hahahaha' to P-CUSTOMER-DATA.SURNAME
+else
+
 
 IF P-PERSON-ID IS (N8)                
   #PERSON-ID := VAL(P-PERSON-ID) 
@@ -78,6 +84,7 @@ ELSE              /* mit email lesen
 END-IF  
  
 END-IF
+end-if
 * ------------------------------------------------------------------
 CALLNAT 'CAMSG-N' MSG-GROUP-PARA
 COMPRESS MSG-GROUP-PARA.MSG-TYPE '-' MSG-GROUP-PARA.MSG-TEXT 
