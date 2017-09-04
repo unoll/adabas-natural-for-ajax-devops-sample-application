@@ -10,6 +10,8 @@
 /**
 /** :author sagadmin
 /* TODO Enter your code here
+/* it can now be committed, I´ve tested it carefully
+/* and this is for testing the commit and push
 DEFINE DATA 
 PARAMETER USING NCCOMM-P
 PARAMETER USING NCCUGE-P 
@@ -45,13 +47,19 @@ MOVE P-LANG TO MSG-GROUP-PARA.MSG-LANG
 * ------------------------------------------------------------------
 *
 *
-*  Exercise 2 - see instructions in exercise guide
+*  Exercise 2 - see instructions in exercise guidee
 
 IF #STUDENT THEN
 
   MOVE 9999 TO MSG-GROUP-PARA.MSG-NR
 
 ELSE
+INPUT (AD=O) p-person-id (AL=50)    /*   FOR TESTING ONLY .UM. 
+if p-person-id = '999'
+then
+ move 'hihihihi' to P-CUSTOMER-DATA.SURNAME
+else
+
 
 IF P-PERSON-ID IS (N8)                
   #PERSON-ID := VAL(P-PERSON-ID) 
@@ -78,6 +86,7 @@ ELSE              /* mit email lesen
 END-IF  
  
 END-IF
+end-if
 * ------------------------------------------------------------------
 CALLNAT 'CAMSG-N' MSG-GROUP-PARA
 COMPRESS MSG-GROUP-PARA.MSG-TYPE '-' MSG-GROUP-PARA.MSG-TEXT 
