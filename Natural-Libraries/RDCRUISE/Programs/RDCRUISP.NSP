@@ -27,7 +27,7 @@ LOCAL
 /* PARAMETERS from parsed adapter
 **SAG DEFINE EXIT DEFINE-DATA
 * CHANGE ON Monday, 2 12:39 and again and again
-* this update to get for the master a commit again
+* this update to get for the master a commit again and again a change
 LOCAL USING RDCRUISL
 LOCAL USING NCCUGE-P  
 LOCAL USING NCCOMM-P
