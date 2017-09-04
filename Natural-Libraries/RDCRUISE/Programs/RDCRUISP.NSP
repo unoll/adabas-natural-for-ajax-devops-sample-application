@@ -28,6 +28,7 @@ LOCAL
 **SAG DEFINE EXIT DEFINE-DATA
 * CHANGE ON Monday, 2 12:39 and again and again
 * this update to get for the master a commit again and again a change
+* another change for remote master, previous did not work
 LOCAL USING RDCRUISL
 LOCAL USING NCCUGE-P  
 LOCAL USING NCCOMM-P
