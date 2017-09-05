@@ -6,6 +6,7 @@
 /**
 /** :author sagadmin
 /* TODO Enter your code here
+* comment
 DEFINE DATA LOCAL 
   USING NCDATA-L
 END-DEFINE
